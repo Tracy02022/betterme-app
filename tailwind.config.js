@@ -1,6 +1,11 @@
 // tailwind.config.js
 module.exports = {
   content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  safelist: [
+    'animate-float-up',
+    'animate-float-down',
+    'floating-object'
+  ],
   theme: {
     extend: {
       colors: {
