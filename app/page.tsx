@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 export default function WelcomePage() {
   return (
-     <div className="relative min-h-screen" style={{ backgroundImage: 'linear-gradient(120deg, #fccb90 0%, #d57eeb 100%)' }}>
+    <div className="relative min-h-screen bg-betterme-gradient overflow-hidden">
       <FloatingMakeup />
       <div className="relative z-10 flex flex-col items-center justify-center px-6 text-center pt-20">
         <motion.h1
@@ -49,7 +49,7 @@ export default function WelcomePage() {
           No login. No filters. Just you.
         </motion.p>
 
-     </div>
+      </div>
     </div>
   )
 }

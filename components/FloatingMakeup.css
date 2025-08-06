@@ -1,0 +1,19 @@
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(15px); /* 更小的浮动效果，更自然 */
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.floating-object {
+  position: absolute;
+  animation: float 6s ease-in-out infinite;
+  z-index: 0; /* 确保在文字下层 */
+  opacity: 0.5; /* 可选：轻微透明更艺术 */
+}
+

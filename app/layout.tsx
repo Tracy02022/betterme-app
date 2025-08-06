@@ -1,7 +1,9 @@
+
+import { abril, cormorant, dancingScript, playfair, quicksand } from "@/lib/fonts";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { abril, cormorant, dancingScript, playfair, quicksand } from "@/lib/fonts";
+
 import clsx from 'clsx'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
