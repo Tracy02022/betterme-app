@@ -10,9 +10,49 @@ export default function FloatingMakeup() {
         alt="floating lipstick"
         className="floating-object"
         style={{
-          top: '8vh',      // 相对 viewport height
-          left: '55vw',    // 相对 viewport width，确保在文字背后偏右位置
-          width: '10vw',   // 宽度响应式
+          top: '8vh',
+          left: '55vw',
+          width: '10vw',
+        }}
+      />
+      <img
+        src="/makeup/brush.png"
+        alt="floating brush"
+        className="floating-object"
+        style={{
+          top: '2vh',
+          left: '30vw',
+          width: '7vw',
+        }}
+      />
+      <img
+        src="/makeup/eyeshadow.png"
+        alt="floating eyeshadow"
+        className="floating-object"
+        style={{
+          top: '30vh',
+          left: '35vw',
+          width: '8vw',
+        }}
+      />
+      <img
+        src="/makeup/foundation.png"
+        alt="floating foundation"
+        className="floating-object"
+        style={{
+          top: '45vh',
+          left: '40vw',
+          width: '7vw',
+        }}
+      />
+      <img
+        src="/makeup/powder.png"
+        alt="floating powder"
+        className="floating-object"
+        style={{
+          top: '35vh',
+          left: '50vw',
+          width: '6vw',
         }}
       />
     </div>
